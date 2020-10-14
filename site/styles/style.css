@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Josefin+Sans:wght@600&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    background-color: #fcfcfc;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+.card img{
+    height:14vw
+}
+.card p{
+    font-size:0.8vw
+}
+
+footer {
+    margin-top: 10vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #68B1F2;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 30px #68B1F2 ;
+}
+footer p{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.footer-heading{
+    margin-top: 8vh;
+    font-family: 'Teko', sans-serif;
+}
+
+.footer-item{
+    margin-left: 2vw;
+}
+
+.home_welcome_message{
+    position: relative;
+    order: 1;
+}
+.home_welcome_container{
+    position: absolute;
+    top: 40%;
+    left:4%;
+    right: 4%;
+    animation: homeWelcome 1s ease-in alternate;
+}
+.home_about_us_button{
+    border-radius: 0;
+    box-shadow: 5px 5px 20px #68B1F2;
+    width: 10vw;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+.home_contact_us_button{
+    border-radius: 0;
+    box-shadow: 5px 5px 20px #2CCC73;
+    width: 10vw;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.home_screen{
+    display: flex;
+}
+
+.home_icon_text{
+    font-size: 1.6vw;
+    color: #252727;
+    text-shadow: 2px 2px 10px rgb(232, 255, 231); 
+    font-family: 'Teko', sans-serif;
+    /* font-family: 'Voltaire', sans-serif; */
+}
+
+.mission_title{
+    font-family: 'Bree Serif', serif;
+    color: #252727;
+    font-size: 2vw;
+    font-style: italic;
+
+}
+
+.image_component{
+    order: 2;
+}
+
+.navbar{
+    background-color: #F0F8FF;
+    box-shadow: 5px 5px 20px #68B1F2;
+}
+.nav-item{
+    padding-right: 20px;
+}
+
+
+.nav-item:hover{
+    box-shadow: 5px 5px 40px #68B1F2;
+    font-weight: bold;
+}
+#title{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(24, 24, 24);
+    font-size :2vw;
+    text-shadow: 2px 2px 40px rgb(204, 204, 204);
+
+}
+.page_title{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(24, 24, 24);
+    font-size :2vw;
+    text-shadow: 2px 2px 40px rgb(204, 204, 204);
+}
+.section_title{
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.7vw;
+    text-decoration: underline  #68B1F2 ;
+    letter-spacing: 4px;
+}
+.welcome_text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+#signal_line1, #picture_two_signal_line2, #girl_chat_box_dot1, #picture_two_right_man_signal_line1, #picture_two_router_dot4{
+    animation: signal 4s infinite;
+    animation-timing-function: linear;
+}
+#signal_line2, #picture_two_signal_line3, #girl_chat_box_dot2, #picture_two_right_man_signal_line2,#picture_two_router_dot5{
+    opacity: 0;
+    animation: signal 2s infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+#signal_line3, #picture_two_signal_line4, #girl_chat_box_dot3, #picture_two_right_man_signal_line3, #picture_two_router_dot6{
+    opacity: 0;
+    animation: signal 6s infinite;
+    animation-timing-function: linear; 
+    animation-delay: 4s;
+}
+
+#white_clowns{
+    animation: whiteClowns 3s ease-in-out infinite alternate;
+}
+
+#dark_clowns{
+    animation: darkClowns 4s ease-in-out infinite alternate;
+}
+
+#background{
+    animation: homeSvgBackground ease-in-out 4s infinite  alternate;
+}
+
+#picture_two_blinking_line{
+    animation: blinkingLine 1s infinite;
+}
+
+#picture_two_background{
+    animation: pictureTwoBackground ease-in-out 4s infinite  alternate;
+}
+
+
+#imei, #sim_card, #mobile_phone, #signal_tower, #tariffs, #news{
+    transition: all .2s;
+    transform-origin: center;
+}
+
+.icons:hover #imei{
+    transform: scale(1.8);
+    cursor: pointer;
+}
+.icons:hover #sim_card{
+    transform: scale(1.6);
+    cursor: pointer;
+} 
+.icons:hover #mobile_phone{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.icons:hover #signal_tower{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.icons:hover #tariffs{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icons:hover #news{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+@keyframes homeSvgBackground{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(8deg);
+    }
+}
+@keyframes darkClowns{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(6deg);
+    }
+}
+@keyframes whiteClowns{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(10deg)
+    }
+}
+@keyframes signal{
+    from{
+        opacity: 0
+    }
+    to{
+        opacity: 1
+    }
+}
+
+@keyframes homeWelcome{
+    0%{
+        top: 44%;
+        opacity: 0;
+    }
+    25%{
+        top: 43%;
+        opacity: 0.25;
+    }
+    50%{
+        top: 42%;
+        opacity: 0.5;
+    }
+    75%{
+        top: 41%;
+        opacity: 0.75;
+    }
+    100%{
+        top: 40%;
+        opacity: 1;
+    }
+
+}
+
+@keyframes blinkingLine{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes pictureTwoBackground{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(14deg);
+    }
+}
+/*media queries*/
+
+/* @media screen and (max-width: 500px){
+    #dark_clowns, #background, #white_clowns{
+        display: none;
+    }
+    .home_welcome_container{
+        display: none;
+    }
+    svg{
+        left: -10%;
+    }
+} */
+
+@media screen and (min-width: 500px){
+    .welcome_image{
+        display: block;
+    }
+    .welcome_image_two{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .card img{
+        height:auto
+    }
+    .card p{
+        font-size:1.2vw;
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background-color: white;
+    }
+    .card img{
+        height:auto
+    }
+    .card p{
+        font-size:2vw;
+    }
+    .section_title{
+        margin-top: 180px;
+        font-size: 4vw;
+    }
+    #title {
+        
+        font-size: x-large;
+    }
+    .home_icon_text{
+        font-size: 4vw;
+    }
+    .image_component{
+        order:1;
+        margin-bottom: 10%;
+    }
+    .home_welcome_message{
+        order:2;
+    }
+    .welcome_image{
+        display: none;
+    }
+    .welcome_image_two{
+        display:block
+    }
+    .home_screen{
+        margin-bottom: 30%;
+    }
+    .home_about_us_button, .home_contact_us_button{
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+        width: 40%;
+        font-size: 65%;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .mission_title{
+        font-size: 3vw
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #68B1F2; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

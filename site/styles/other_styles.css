@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Squada+One&family=Staatliches&display=swap');
+.icon-bar {
+    top: 45%;
+    left: 1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    
+}
+
+.nav-verticle{
+  
+  margin-bottom: 35px;
+  
+}
+
+
+.spectrum:hover span span{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.spectrum:hover span span:after{
+  content: "SPECTRUM MANAGEMENT";
+}
+
+.telecommunication:hover span span{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.telecommunication:hover span span:after{
+  content: "TELECOMMUNICATION NETWORK";
+}
+
+.licensing:hover span span{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.licensing:hover span span:after{
+  content: "LICENSING";
+}
+
+.economic:hover span span{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.economic:hover span span:after{
+  content: "ECONOMIC REGULATION";
+}
+
+.broadband:hover span span{
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.broadband:hover span span:after{
+  content: "BROADBAND";
+}
+  
+.icon-bar a {
+
+  padding: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Patrick Hand', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  /* font-family: 'Piedra', cursive; */
+  box-shadow: 2Px 2px 20px #55ACEE;
+
+}
+
+.h{
+  width: 800px;
+}
+.icon-bar a:hover {
+  background-color: #E9AB34ff;
+}
+
+.spectrum {
+  background: #55ACEE;
+  color: white;
+  
+}
+
+.telecommunication {
+  background: #1E88C8;
+  color: white;
+}
+
+.licensing {
+  background: #0066A2;
+  color: white;
+}
+
+.economic {
+  background: #00477F;
+  color: white;
+}
+
+.broadband {
+  background: #00295D;
+  color: white;
+}
+
+.content{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.content-card-title{
+  text-decoration: underline  #68B1F2 ;
+  font-family: 'Concert One', cursive;
+  /* font-family: 'Fredoka One', cursive; */
+  /* font-family: 'Squada One', cursive; */
+  /* font-family: 'Staatliches', cursive; */
+}
+
+.content-card-body{
+  font-family: 'Fredoka One', cursive;
+  font-size: large;
+
+}
+
+.content-container{
+  height: 80vh;
+}
+.content_icon_container{
+  text-align: center;
+}
+.content_icon{
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: #fec722;
+  box-shadow: 2px 2px 10px #CB9A00;
+  margin: auto;
+}
+.content_icon_text{
+  margin-top: 0;
+  font-family: 'Concert One', cursive;
+}
+.content_icon_image{
+  font-size: 1.5vw;
+  margin-top: 27%;
+  color: white;
+}
+@media screen and (max-height: 510px){
+  .icon-bar{
+    top: 65%;
+
+  }
+  .content-card-title{
+    font-size: 2vw;
+  }
+  .content-card-body{
+    font-size: 1vw;
+  }
+
+  li h4{
+    font-size: 1.5vw;
+  }
+  .icon-bar a{
+    padding: 1vw;
+  }
+  .nav-verticle{
+  
+    margin-bottom: 15px;
+    
+  }
+  .content-container{
+    height: auto;
+  }
+
+
+  .content_icon_text{
+    margin-top: 0;
+    font-size: 1vw
+  }
+}
+
+@media screen and (max-width: 767px){
+  .content-container{
+    height: auto;
+  }
+  .content-card-body{
+    font-size: 3vw;
+  }
+  .content_icon{
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .content_icon_text{
+    margin-top: 0;
+    font-size: 3vw
+  }
+  .content_icon_image{
+    font-size: 3vw;
+  }
+}
