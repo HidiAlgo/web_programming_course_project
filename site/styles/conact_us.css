@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.contact-us-left-box{
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+
+.contact-us-right-box{
+    
+}
+
+.contact_us_logo{
+    width: 40%;
+}
+
+.contact-us-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.contact-us-left-title{
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline #68B1F2;
+    font-size: 1.5vw;
+}
+
+.contact-us-left-social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3A8CCA;
+    margin: 20px;
+    box-shadow: -5px 5px 20px #00295C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-left-social-icon i{
+    font-size: 1.2vw;
+    color: white;
+}
+
+.contact-us-right-box{
+    height: 100vh;    
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.form-box{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    padding:2vw;
+    border-radius: 5%;
+}
+
+
+.form-box h2{
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline #68B1F2;
+}
+
+@media screen and (max-width: 767px){
+    .form-box{
+        width: 90%;
+    }
+}

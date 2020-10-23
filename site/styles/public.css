@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Squada+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Squada+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.icon-bar {
+    top: 45%;
+    left: 1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    
+}
+
+.nav-verticle{
+  
+  margin-bottom: 35px;
+  
+}
+.icon-bar a {
+
+    padding: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Piedra', cursive; */
+    box-shadow: 2Px 2px 10px #00A98A;
+  
+  }
+.icon-bar a:hover {
+    background-color: #55ACEE;
+}  
+.public_services {
+
+    background: #E9AB34;
+    color: white;
+}
+
+.consumer_information {
+
+    background: #AFA724;
+    color: white;
+}
+
+.consumer_protection {
+    background: #759E2B;
+    color: white;
+}
+
+.public_downloads{
+    background: #34923E;
+    color: white;
+}
+
+.consumers{
+    background: #008351;
+    color: white;
+}
+
+.public_services:hover span span{
+    opacity: 1;
+    transition: all 1s ease 0s;
+  }
+.public_services:hover span span:after{
+    content: " SERVICES";
+}
+
+.consumer_information:hover span span{
+    opacity: 1;
+    transition: all 1s ease 0s;
+  }
+.consumer_information:hover span span:after{
+    content: " CUSTOMER INFORMATION";
+}
+
+.consumer_protection:hover span span{
+    opacity: 1;
+    transition: all 1s ease 0s;
+  }
+.consumer_protection:hover span span:after{
+    content: " CONSUMER PROTECTION";
+}
+
+.public_downloads:hover span span{
+    opacity: 1;
+    transition: all 1s ease 0s;
+}
+.public_downloads:hover span span:after{
+    content: " DOWNLOADS";
+}
+
+.consumers:hover span span{
+    opacity: 1;
+    transition: all 1s ease 0s;
+  }
+.consumers:hover span span:after{
+    content: " CONSUMERS";
+}
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .content-card-title{
+    text-decoration: underline  #68B1F2 ;
+    font-family: 'Concert One', cursive;
+    /* font-family: 'Fredoka One', cursive; */
+    /* font-family: 'Squada One', cursive; */
+    /* font-family: 'Staatliches', cursive; */
+  }
+  
+  .content-card-body{
+    font-family: 'Fredoka One', cursive;
+    font-size: large;
+  
+  }
+  
+  .content-container{
+    height: 80vh;
+  }
+  .content_icon_container{
+    text-align: center;
+  }
+  .content_icon{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #fec722;
+    box-shadow: 2px 2px 10px #CB9A00;
+    margin: auto;
+  }
+  
+  .content_icon:hover{
+    background-color: #CB9A00;
+    cursor: pointer;
+  }
+  .content_icon_text{
+    margin-top: 0;
+    font-family: 'Concert One', cursive;
+  }
+  .content_icon_image{
+    font-size: 1.5vw;
+    margin-top: 27%;
+    color: white;
+  }
+  
+
+@media screen and (max-height: 510px){
+    .icon-bar{
+      top: 65%;
+  
+    }
+    li h4{
+      font-size: 1.5vw;
+    }
+    .icon-bar a{
+      padding: 1vw;
+    }
+    .nav-verticle{
+        margin-bottom: 15px;    
+    }
+    .content-card-title{
+        font-size: 2vw;
+    }
+    .content-card-body{
+        font-size: 1vw;
+    }
+    .content-container{
+        height: auto;
+    }  
+    
+    .content_icon_text{
+        margin-top: 0;
+        font-size: 1vw
+    }
+  }
+  
+  @media screen and (max-width: 767px){
+    .icon-bar a{
+      box-shadow: 2Px 2px 05px #55ACEE;
+    }
+    .content-container{
+        height: auto;
+      }
+      .content-card-body{
+        font-size: 3vw;
+      }
+      .content_icon{
+        width: 7vw;
+        height: 7vw;
+      }
+    
+      .content_icon_text{
+        margin-top: 0;
+        font-size: 3vw
+      }
+      .content_icon_image{
+        font-size: 3vw;
+      }
+  }

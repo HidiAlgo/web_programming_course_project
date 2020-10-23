@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/trc_logo_transparent.png" type="image/icont_type">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="styles/about_us.css">
+
+    <title>About us</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row mx-auto">
+                <div class="col-12 mt-3 ">
+                    <div class="navigation-box mt-2 ml-2 mr-2  fixed-top">
+                        <nav class="navbar navbar-expand-md navbar-light ">
+                            <a href="#" class="navbar-brand">
+                               <img src="img/trc_logo_transparent.png" class="img-fluid" style="width: 14%;">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trc_content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="trc_content">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a href="home.html" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="industry.html" class="nav-link">Industry</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="public.html" class="nav-link">Public</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about_us.html" class="nav-link">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact_us.html" class="nav-link">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>   
+                    </div>                    
+                </div> 
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container-fluid">
+            <div class="row mx-auto">
+                <div class="col-sm-12 col-md-12 col-lg-6 about-us-home-left d-flex align-items-center justify-content-center">
+                    <div class="text-center about-us-home-left-box" data-aos="fade-left" >
+                        <h1 class="title" style="margin-top: 20vh;">WHO WE ARE</h1>
+                        <p class="title-description ml-5 mr-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad, deleniti itaque qui officia reprehenderit aperiam modi. Doloremque ipsa nostrum harum facilis, suscipit ratione unde eius fugit quasi dolorem beatae provident deleniti magni recusandae aspernatur ab soluta. Quasi, sed vitae maxime quidem reiciendis hic voluptatibus. Nisi, dolorem? Fugiat aliquid, necessitatibus, consectetur velit omnis nihil, quod facilis tempore rem magni ullam.</p>
+                        <button class="uk-button uk-button-primary about_us_more_button mt-3" onclick="more()">TELL US MORE</button>
+
+                            <div class="wave-container">
+                                <img id="wave" src="wave.png"  alt="">
+                            </div>
+
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 about-us-home-right d-flex align-items-center justify-content-center" data-aos="fade-right">
+                    <div class=" text-center">
+                        
+                        <div class="mt-5 map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3960.9077173433966!2d79.876895!3d6.901639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d59e165867b618f!2sTelecommunications%20Regulatory%20Commission!5e0!3m2!1sen!2sus!4v1602954814711!5m2!1sen!2sus"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="row mx-auto" id="more" >
+                <div class="d-none d-md-block col-1"> </div>
+                <div class="col-sm-12 col-md-2  text-center about-us-icon-card" uk-toggle="target: #offcanvas-nav-primary"  data-aos="fade-down">
+                    <div class="about-us-icon">
+                        <img style="width: 80%;" class="about-us-icon-image" src="img/organization.png" alt="">
+                    </div><hr class="d-block d-md-none"><hr class="d-block d-md-none"><hr class="d-block d-md-none">
+                    <h4 class="about-us-icon-title">ORGANIZATION</h4>
+                </div>
+                <div class="col-sm-12 col-md-2 text-center about-us-icon-card" data-aos="fade-down" >
+                    <div class="about-us-icon ">
+                        <img style="width:60%" class="about-us-icon-image" src="img/divisions.png" alt="">
+                    </div><hr class="d-block d-md-none"><hr class="d-block d-md-none"><hr class="d-block d-md-none">
+                    <h4 class="about-us-icon-title">DIVISIONS OF TRCSL</h4>
+                </div>
+                <div class="col-sm-12 col-md-2 text-center about-us-icon-card" uk-toggle="target: #offcanvas-nav-primary-2" data-aos="flip-down">
+                    <div class="about-us-icon-middle">
+                        <img class="about-us-icon-image-middle" src="img/public notice.png" alt="">
+                        <h3 class=" d-none d-lg-block about-us-icon-title mt-5">PUBLIC NOTICES</h3>
+                    </div><hr class="d-block d-md-none"><hr class="d-block d-md-none"><hr class="d-block d-md-none">
+                    <h4 class="d-block d-lg-none about-us-icon-title">PUBLIC NOTICES</h4>
+                </div>
+
+                <div class="col-sm-12 col-md-2 text-center about-us-icon-card" data-aos="fade-down">
+                    <div class="about-us-icon">
+                        <img class="about-us-icon-image"style="width: 70%;" src="img/news_and_events.png" alt="">
+                    </div><hr class="d-block d-md-none"><hr class="d-block d-md-none"><hr class="d-block d-md-none">
+                    <h4 class="about-us-icon-title">NEWS AND EVENTS</h4>
+                </div>
+                <div class="col-sm-12 col-md-2 text-center about-us-icon-card" data-aos="fade-down">
+                    <div class="about-us-icon">
+                        <img style="width: 60%" class="about-us-icon-image" src="img/links.png" alt="">
+                    </div><hr class="d-block d-md-none"><hr class="d-block d-md-none"><hr class="d-block d-md-none">
+                    <h4 class="about-us-icon-title">RELATED LINKS</h4>
+                </div>
+                <div class="col-1 d-none d-md-block"></div>
+            </div>
+        </div>
+        <hr class="mt-5"><hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="member-title">MEMBERS</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4  card-container" data-aos="fade-down">
+                    <div class="user-card mt-5" >
+                        <div class="user-card-header">
+                            <img src="img/member2.jpg" alt="">
+                            <h4 class="user-card-title">Dr. P B Jayasundara</h4>
+                            <small>Chairmen of TRSCL</small>
+                            <div class="social-media-icon-container">
+                                <div class="social-icon">
+                                    <i class="fa fa-facebook fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa fa-twitter fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa fa-linkedin fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="user-card-wave-container">
+                                <div class="user-card-wave1"></div>
+                            </div>
+                        </div>
+                        <div class="user-card-body">
+                            <button type="button" class="btn btn-outline-primary" uk-toggle="target: #modal-close-default">SEE MORE</button>
+                        </div>
+                        <div class="user-card-footer"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4  card-container" data-aos="fade-down">
+                    <div class="user-card mt-5">
+                        <div class="user-card-header ">
+                            <img src="img/member3.jpg" alt="">
+                            <h4 class="user-card-title">Mr. Oshada Senanayake</h4>
+                            <small>Director General</small>
+                            <div class="social-media-icon-container">
+                                <div class="social-icon">
+                                    <i class="fa fa-facebook fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa fa-twitter fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon"> 
+                                    <i class="fa fa-linkedin fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="user-card-wave-container">
+                                <div class="user-card-wave1"></div>
+                            </div>
+                        </div>
+                        <div class="user-card-body">
+                            <button type="button" class="btn btn-outline-primary">SEE MORE</button>
+                        </div>
+                        <div class="user-card-footer"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4  card-container" data-aos="fade-down">
+                    <div class="user-card mt-5">
+                        <div class="user-card-header">
+                            <img src="img/member1.jpg" alt="">
+                            <h4 class="user-card-title">Mr. Anil Meegahage</h4>
+                            <small>Member of the Commision</small>
+                            <div class="social-media-icon-container">
+                                <div class="social-icon">
+                                    <i class="fa fa-facebook fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa fa-twitter fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa fa-linkedin fa-lg social" style="color: white;" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="user-card-wave-container">
+                                <div class="user-card-wave1"></div>
+                            </div>
+                        </div>
+                        <div class="user-card-body">
+                            <button type="button" class="btn btn-outline-primary">SEE MORE</button>
+                        </div>
+                        <div class="user-card-footer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="offcanvas-nav-primary" uk-offcanvas=" overlay: true" >
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column" style="background-color: white;">
+        
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" style="color: black">
+                    <li class="uk-nav-header" ><a href="#" style="color: black" class="about-us-icon-title">ORGANIZATION</a></li>
+                    <li class="uk-parent">
+                        <hr style="background-color: #68B1F2">
+                        <hr style="background-color: #68B1F2">
+                        <ul  class="">
+                            <li><a href="#" style="color: black">Corporate Information</a></li>
+                            <li><a href="#" style="color: black" >Functions & Responsibilities</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="offcanvas-nav-primary-2" uk-offcanvas=" overlay: true" >
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column" style="background-color: white;">
+        
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" style="color: black">
+                    <li class="uk-nav-header" ><a href="#" style="color: black"  class="about-us-icon-title">PUBLIC NOTICES</a></li>
+                    <li class="uk-parent">
+                        <hr style="background-color: #68B1F2">
+                        <hr style="background-color: #68B1F2">
+                        <ul class="uk-nav-sub">
+                            <li><a href="#" style="color: black">Vacancies</a></li>
+                            <li><a href="#" style="color: black">Public Notices</a></li>
+                            <li><a href="#" style="color: black">Tariffs</a></li>
+                            <li><a href="#" style="color: black">Anual Reports</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="modal-close-default" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <h4 class="uk-modal-title" style="text-decoration: #68B1F2 underline;">Details</h4>
+                <table>
+                    <tr>
+                        <td style="font-weight: bold;">ADDRESS :- </td>
+                        <td>No 276, Elvitifala Mawatha Colombo 08 0800 Sri Lanka</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">EMAIL :- </td>
+                        <td>chairman@trc.gov.lk</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">TP :- </td>
+                        <td>+94 11 2679827</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container-fluid ">
+            <div class="row mx-auto">
+
+                <div class="col-sm-12 col-md-12 col-lg-3 text-left">
+                    <div class="footer-item mr-5">
+                        <h3 class="footer-heading" style="color: white; font-size: 170%">Telecommunication Regulatory Commision Sri Lanka</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ipsa id recusandae laudantium doloribus. Explicabo dolorum ad culpa id tempora alias eaque, cum iure aut corrupti perferendis sed est quas. Vero alias qui porro tempora velit sed quaerat atque vitae.</p>    
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3 text-left">
+                    <div class="footer-item">
+                        <h4 class="footer-heading "style="color: white; font-size: 170%">Services</h4>
+                        <p>SIM REGULATIONS</p>
+                        <p>IMEI REGISTRATION</p>
+                        <p>LOST PHONES</p>
+                        <p>SPECTRUM MANAGEMENT</p>
+                        <p>TARIFFS</p>
+                        <p>HEADLINES</p>    
+                    </div>
+                    
+                </div>
+                <div class="d-none d-lg-block col-lg-3 text-left">
+                    <div class="footer-item">
+                        <h4 class="footer-heading" style="color: white; font-size: 170%">USEFUL LINKS</h4>
+                        <p>GOVERNMENT OF SRI LANKA</p>
+                        <p>COVID 19 INFO</p>
+                        <p>SRI LANKA NEWS</p>
+                        <p>SRI LANKA POLICE</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3 text-left">
+                    <div class="footer-item">
+                        <h4 class="footer-heading" style="color: white; font-size: 170%">Contact</h4>
+                        <p><i class="fa fa-home mr-3"></i> No. 276, Elvitigala Mawatha, colombo 8 sri lanka<p>
+                        <p> <i class="fa fa-envelope mr-3"></i>cc@trc.gov.lk</p>
+                        <p><i class="fa fa-phone mr-3"></i>+94 11 2689345</p>
+                        <p> <i class="fa fa-print mr-3"></i>+94 11 2689341</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="background-color: black;">
+            <div class="row mx-auto" >
+                <div class="col-6 text-center d-none d-lg-block ">
+                    <div class="ml-4">
+                        <span>
+                            <h4 class="footer-heading" style="color: white; font-size: 150%">© 2020 Copyright</h4>
+                            <p>TRC.GOV.LK</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 text center">
+                    <div class="">
+                        <i class="fa fa-facebook-f mr-5" style="font-size: 30px;margin-top: 8vh;"></i>
+                        <i class="fa fa-twitter mr-5" style="font-size: 30px;margin-top: 8vh;"></i>
+                        <i class="fa fa-linkedin" style="font-size: 30px;margin-top: 8vh;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-12 text-center d-block d-lg-none">
+                    <span>
+                        <h4 class="footer-heading" style="">© 2020 Copyright</h4>
+                        <p>TRC.GOV.LK</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+    <script>
+        function more(){
+            window.location.href = "#more"
+        }
+    </script>
+
+    <script>
+      AOS.init({
+          duration: 2000
+      });
+    </script>
+</body>
+</html>

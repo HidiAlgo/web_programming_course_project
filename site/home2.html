@@ -3,33 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <title>Document</title>
 
   <style>
-    .tool{
-      padding: 10px;
-      width: 100px;
+    .body{
+      position: relative;
     }
+    .h{
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      width: 400px;
+      height: 600px;
+      background-color: violet;
+    }
+    .h::after{
+      content: '';
+      display: block;
+      width: 80px;
+      height: 80px;
+      background-color: yellow;
+      border-radius: 40%;
 
+    }
+    .h::before{
+
+      content: '';
+      display: block;
+      width: 80px;
+      height: 80px;
+      background-color: lightpink;
+      border-radius: 40%;
+
+    }
   </style>
 </head>
 <body>
-  <
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.fixed-action-btn');
-      var instances = M.FloatingActionButton.init(elems, {
-        direction: 'left'
-      });
-    });
-  </script>
+  <div class="h">
+
+  </div>
 </body>
 </html>
